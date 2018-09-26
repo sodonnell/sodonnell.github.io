@@ -1,0 +1,15 @@
+{
+  "repos": [
+    {
+      "title": "spacetrack - A Basic PHP API Client for the space-track.org web service.",
+      "href": "https://github.com/sodonnell/spacetrack"
+    },
+    {
+      "title": "bash - A collection of random bash scripts.",
+      "href": "https://github.com/sodonnell/bash"
+    },
+    {
+      "title": "rssbot - An old python version of the rssbot.org data collection engine. [Archived]",
+      "href": "https://github.com/sodonnell/rssbot"
+    },
+]}
