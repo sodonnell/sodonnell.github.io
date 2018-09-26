@@ -36,7 +36,7 @@
             <div id="head" class="column" >
                 <h1 class="title">Sean's Github Repositories</h1>
                 <ul class="menu-list">
-                    <li v-for="i in results.repos"><a href="{{ i.href }}">{{ i.title }}</a></li>
+                    <li v-for="i in results.repos"><a :href="i.href">{{ i.title }}</a></li>
                 </ul>
             </div>
         </div>
