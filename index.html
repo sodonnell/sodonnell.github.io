@@ -34,12 +34,7 @@
     <section class="section">
         <div class="columns">
             <div id="head" class="column" >
-                <h1 class="title">Github Repositories</h1>
-                <div>
-                    <a id="sbutt" class="button is-success" v-on:click="show()">{{ moreview }} Repos</a>
-                </div>
-            </div>
-            <div class="column" v-if="more">
+                <h1 class="title">Sean's Github Repositories</h1>
                 <ul class="menu-list">
                     <li v-for="i in results.repos"><a href="{{ i.href }}">{{ i.title }}</a></li>
                 </ul>
@@ -49,27 +44,17 @@
 </div>
 
 <script>
+// basic Vue JSON Parser
 const url = "repos.json";
-
 const vm = new Vue({
     el: '#app',
     data: {
         results: [],
-        quote: {},
-        x: 0,
-        more: false,
-        moreview: 'Show',
     },
     mounted() {
         axios.get(url).then(response => {
             this.results = response.data;
         })
-    },
-    methods: {
-        show() {
-            (this.more == true) ? this.more=false : this.more=true;
-            (this.more == true) ? this.moreview='Hide' : this.moreview='Show';
-        }
     }
 });
 </script>
