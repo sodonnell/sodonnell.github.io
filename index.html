@@ -36,9 +36,9 @@
     <section class="section">
         <div class="columns">
             <div id="head" class="column" >
-                <h3 class="title">Sean's Github Repositories</h3>
+                <h3 class="title"><i class="fa fa-github fa-5x" aria-hidden="true"></i><br/>Sean's Github Repositories</h3>
                 <ul class="menu-list">
-                    <li v-for="i in results.repos" class="valign-wrapper"><i class="fa fa-github fa-3x" aria-hidden="true"></i>&nbsp;<a :href="i.href">{{ i.title }}</a></li>
+                    <li v-for="i in results.repos" class="valign-wrapper"><i class="fa fa-code-branch fa-2x" aria-hidden="true"></i>&nbsp;<a :href="i.href">{{ i.title }}</a></li>
                 </ul>
             </div>
         </div>
