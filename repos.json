@@ -1,15 +1,18 @@
 {
   "repos": [
     {
-      "title": "bash - A collection of random bash scripts.",
+      "title": "bash",
+      "description": "A collection of random bash scripts.",
       "href": "https://github.com/sodonnell/bash"
     },
     {
-      "title": "rssbot2 - A revised version of my old rssbot module re-developed using python3.",
+      "title": "rssbot2",
+      "description": "A revised version of my old rssbot module re-developed using python3.",
       "href": "https://github.com/sodonnell/rssbot2"
     },
     {
-      "title": "spacetrack - An API Client for the space-track.org web service, written in PHP, and distributed as a Composer package.",
+      "title": "spacetrack",
+      "description": "An API Client for the space-track.org web service, written in PHP, and distributed as a Composer package.",
       "href": "https://github.com/sodonnell/spacetrack"
     }
   ]
