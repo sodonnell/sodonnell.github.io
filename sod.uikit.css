@@ -1,0 +1,55 @@
+html, body
+{
+    background-color: #000;
+    background-image: linear-gradient(#20262E,#000);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#sidenav > div, .uk-offcanvas-bar
+{
+    background-color: #000;
+    background-image: linear-gradient(#20262E,#000);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-left: 1px solid #20262E;
+}
+
+.uk-modal-dialog, .uk-modal-header, .uk-modal-close-full, .uk-card, .uk-card-hover, .uk-card-body
+{
+    background-image: linear-gradient(#20262E,#000);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 1px solid #20262E;
+    color: white;
+}
+
+button, a, h1, h2, h3, h4, h5, .uk-button-default
+{
+    color: white;
+}
+
+.uk-accordion-title
+{
+    color: white;
+    font-size: large;
+}
+
+li
+{
+    font-size: small;
+}
+
+.uk-navbar-container, 
+.uk-navbar-left, 
+.uk-navbar-right, 
+.uk-navbar-nav,
+.uk-navbar-dropdown, 
+.uk-navbar-dropdown-nav, 
+nav > div
+{
+    background-color: #000;
+}
