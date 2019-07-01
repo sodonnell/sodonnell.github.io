@@ -46,6 +46,43 @@
     </nav>
 </div>
 
+
+<div id="sidenav" uk-offcanvas="flip: true; overlay: false">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <ul class="uk-nav uk-nav-default">
+            <li class="uk-nav-header"><a href="https://aws.seanodonnell.com/content">Blog</a></li>
+            <li class="uk-nav-header">Code</li>
+            <li><a href="{{ env('POFILE_GITHUB') }}"><span class="uk-margin-small-right" uk-icon="icon: github"></span> Github Repo</a></li>
+            <li class="uk-parent">
+                <a href="#"><span class="uk-margin-small-right" uk-icon="icon: code"></span> PHP/Composer Packages</a>
+                <ul class="uk-nav-sub">
+                    <li class="uk-text-small"><a href="#"><span class="uk-margin-small-right" uk-icon="icon: cloud-download"></span> spacetrack</a></li>
+                    <li class="uk-text-small"><a href="#"><span class="uk-margin-small-right" uk-icon="icon: cloud-download"></span> slack-alerts</a></li>
+                    <li class="uk-text-small"><a href="#"><span class="uk-margin-small-right" uk-icon="icon: cloud-download"></span> siege</a></li>
+                </ul>
+            </li>
+
+            <li class="uk-nav-header">Services</li>
+            <li><a href="https://aws.seanodonnell.com/services/devops" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: git-branch"></span> DevOps Engineering</a></li>
+            <li><a href="https://aws.seanodonnell.com/services/linux" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: laptop"></span> Linux Systems Engineering</a></li>
+            <li><a href="https://aws.seanodonnell.com/services/php" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: code"></span> Custom PHP Programming</a></li>
+            <li><a href="https://aws.seanodonnell.com/services/python"><span class="uk-margin-small-right" uk-icon="icon: code"></span> Custom Python Programming</a></li>
+            <li><a href="https://aws.seanodonnell.com/services/analytics"><span class="uk-margin-small-right" uk-icon="icon: info"></span> Data Visualization and Analysis</a></li>
+
+            <li class="uk-nav-header">For Employers/Recruiters</li>
+            <li><a href="https://aws.seanodonnell.com/career/skills"><span class="uk-margin-small-right" uk-icon="icon: list"></span> Technical Skills</a></li>
+            <li><a href="https://aws.seanodonnell.com/career/resume"><span class="uk-margin-small-right" uk-icon="icon: file-edit"></span> Professional Resume</a></li>
+            <li><a href="{{ env('POFILE_LINKEDIN') }}"><span class="uk-margin-small-right" uk-icon="icon: linkedin"></span> LinkedIn Profile</a></li>
+
+            <li class="uk-nav-header">Contact</li>
+            <li><a href="mailto:sean@seanodonnell.com"><span class="uk-margin-small-right" uk-icon="icon: mail"></span> sean@seanodonnell.com</a></li>
+        </ul>
+    </div>
+</div>
+
 <div id="app" class="container uk-container uk-padding">
     <div class="page-header">
         <h3 class="title"><i class="fa fa-github fa-5x" aria-hidden="true"></i><br/>Sean's Github Repositories</h3>
