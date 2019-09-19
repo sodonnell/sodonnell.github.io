@@ -8,9 +8,9 @@ It's other purpose is to serve as a cheesy HTML/CSS/JavaScript boiler-plate temp
 
 ## HTML, CSS and JavaScript WebUI Development
 
-I no longer consider myself a Front-end developer, as I do far more server-side, back-end API and systems automation development, but I still enjoy playing around with WebUI tools for my own personal projects.
+I don't consider myself a "Front-end developer" (by any means), as I do far more server-side, back-end API and systems automation development, but I still enjoy experimenting with front-end tools for my own personal projects.
 
-The current boiler plate is based upon:
+The current boiler-plate is based upon:
 
 - CSS
   - Bootstrap
@@ -20,4 +20,4 @@ The current boiler plate is based upon:
   - Vue.js
   - Axios
   - JSON
-- HTML5 
+- HTML5
