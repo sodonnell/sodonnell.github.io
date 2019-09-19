@@ -1,6 +1,6 @@
 # sodonnell.github.io
 
-[Sean's GitHub.io Repository](https://sodonnell.github.io/)
+My cheesy [GitHub.io](https://sodonnell.github.io/) repository.
 
 This repo is intended to deploy a static HTML (splash) page that links to some of my github repos.
 
