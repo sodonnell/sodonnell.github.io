@@ -7,12 +7,12 @@
     },
     {
       "title": "rssbot2",
-      "description": "A revised version of my old rssbot module re-developed using python3.",
+      "description": "A revised version of my old rssbot module, re-developed using python3.",
       "href": "https://github.com/sodonnell/rssbot2"
     },
     {
       "title": "spacetrack",
-      "description": "An API Client for the space-track.org web service, written in PHP, and distributed as a Composer package.",
+      "description": "An API Client for the space-track.org web service, written in PHP and distributed as a Composer package.",
       "href": "https://github.com/sodonnell/spacetrack"
     },
     {
