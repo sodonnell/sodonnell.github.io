@@ -14,6 +14,11 @@
       "title": "spacetrack",
       "description": "An API Client for the space-track.org web service, written in PHP, and distributed as a Composer package.",
       "href": "https://github.com/sodonnell/spacetrack"
+    },
+    {
+      "title": "Public Gists",
+      "description": "Various Public Gists and other Code Snippets.",
+      "href": "https://gist.github.com/sodonnell"
     }
   ]
 }
