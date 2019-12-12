@@ -1,6 +1,11 @@
 {
   "repos": [
     {
+      "title": "My Public Gists",
+      "description": "Various Public Gists and other Code Snippets.",
+      "href": "https://gist.github.com/sodonnell"
+    },
+    {
       "title": "bash",
       "description": "A collection of random bash scripts.",
       "href": "https://github.com/sodonnell/bash"
@@ -16,9 +21,9 @@
       "href": "https://github.com/sodonnell/spacetrack"
     },
     {
-      "title": "My Public Gists",
-      "description": "Various Public Gists and other Code Snippets.",
-      "href": "https://gist.github.com/sodonnell"
+      "title": "vscode-extensions",
+      "description": "A simple way to synchronize my VS Code Extensions across multiple (work/personal) MacOS computers.",
+      "href": "https://github.com/sodonnell/vscode-extensions"
     }
   ]
 }
